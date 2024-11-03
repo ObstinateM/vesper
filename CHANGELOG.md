@@ -4,6 +4,10 @@ All notable changes to the "vesper-pp" extension will be documented in this file
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.3.0] - 2024-03-11
+
+- Added status bar color when no folder is open.
+
 ## [1.2.0] - 2023-04-11
 
 - Add terminal theme
