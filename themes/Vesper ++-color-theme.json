@@ -36,6 +36,7 @@
     // Tab
     "tab.activeBorderTop": "#FFC799",
     // Status bar
+    "statusBar.noFolderBackground": "#FFF", // set's the color of the status bar when no folder is open
     "statusBar.debuggingForeground": "#FFF",
     "statusBar.debuggingBackground": "#FF7300",
     "statusBar.background": "#101010",
