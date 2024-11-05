@@ -36,13 +36,13 @@
     // Tab
     "tab.activeBorderTop": "#FFC799",
     // Status bar
-    "statusBar.noFolderBackground": "#5D6E7A", // set's the color of the status bar when no folder is open
+    "statusBar.noFolderBackground": "#101010", // set's the color of the status bar when no folder is open
     "statusBar.debuggingForeground": "#FFF",
     "statusBar.debuggingBackground": "#FF7300",
     "statusBar.background": "#101010",
     "statusBar.foreground": "#A0A0A0",
-    "statusBarItem.remoteBackground": "#FFC799",
-    "statusBarItem.remoteForeground": "#000",
+    "statusBarItem.remoteBackground": "#101010",
+    "statusBarItem.remoteForeground": "#A0A0A0",
     // Change explorer active item color
     "list.activeSelectionForeground": "#FFC799",
     "list.inactiveSelectionBackground": "#232323",
@@ -114,35 +114,50 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
       "settings": {
         "foreground": "#595959"
       }
     },
     {
       "name": "Variables",
-      "scope": ["variable", "string constant.other.placeholder", "entity.name.tag"],
+      "scope": [
+        "variable",
+        "string constant.other.placeholder",
+        "entity.name.tag"
+      ],
       "settings": {
         "foreground": "#FFF"
       }
     },
     {
       "name": "Colors",
-      "scope": ["constant.other.color"],
+      "scope": [
+        "constant.other.color"
+      ],
       "settings": {
         "foreground": "#FFF"
       }
     },
     {
       "name": "Invalid",
-      "scope": ["invalid", "invalid.illegal"],
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
       "settings": {
         "foreground": "#FF8080"
       }
     },
     {
       "name": "Keyword, Storage",
-      "scope": ["keyword", "storage.modifier"],
+      "scope": [
+        "keyword",
+        "storage.modifier"
+      ],
       "settings": {
         "foreground": "#FBADFF"
       }
@@ -170,21 +185,29 @@
     },
     {
       "name": "Java Tweak Import",
-      "scope": ["keyword.other.import.java"],
+      "scope": [
+        "keyword.other.import.java"
+      ],
       "settings": {
         "foreground": "#FBADFF"
       }
     },
     {
       "name": "Java Tweak Import variable",
-      "scope": ["storage.modifier.import.java"],
+      "scope": [
+        "storage.modifier.import.java"
+      ],
       "settings": {
         "foreground": "#FFFF"
       }
     },
     {
       "name": "Tag",
-      "scope": ["entity.name.tag", "meta.tag.sgml", "markup.deleted.git_gutter"],
+      "scope": [
+        "entity.name.tag",
+        "meta.tag.sgml",
+        "markup.deleted.git_gutter"
+      ],
       "settings": {
         "foreground": "#FFC799"
       }
@@ -203,14 +226,19 @@
     },
     {
       "name": "Block Level Variables",
-      "scope": ["meta.block variable.other"],
+      "scope": [
+        "meta.block variable.other"
+      ],
       "settings": {
         "foreground": "#FFF"
       }
     },
     {
       "name": "Other Variable, String Link",
-      "scope": ["support.other.variable", "string.other.link"],
+      "scope": [
+        "support.other.variable",
+        "string.other.link"
+      ],
       "settings": {
         "foreground": "#FFF"
       }
@@ -283,35 +311,48 @@
     },
     {
       "name": "Sub-methods",
-      "scope": ["entity.name.module.js", "variable.import.parameter.js", "variable.other.class.js"],
+      "scope": [
+        "entity.name.module.js",
+        "variable.import.parameter.js",
+        "variable.other.class.js"
+      ],
       "settings": {
         "foreground": "#FF8080"
       }
     },
     {
       "name": "Variable immutable",
-      "scope": ["variable.other.constant"],
+      "scope": [
+        "variable.other.constant"
+      ],
       "settings": {
         "foreground": "#99FFE4"
       }
     },
     {
       "name": "Language methods",
-      "scope": ["variable.language"],
+      "scope": [
+        "variable.language"
+      ],
       "settings": {
         "foreground": "#FFFF"
       }
     },
     {
       "name": "entity.name.method.js",
-      "scope": ["entity.name.method.js"],
+      "scope": [
+        "entity.name.method.js"
+      ],
       "settings": {
         "foreground": "#FFFF"
       }
     },
     {
       "name": "meta.method.js",
-      "scope": ["meta.class-method.js entity.name.function.js", "variable.function.constructor"],
+      "scope": [
+        "meta.class-method.js entity.name.function.js",
+        "variable.function.constructor"
+      ],
       "settings": {
         "foreground": "#FFFF"
       }
@@ -357,49 +398,66 @@
     },
     {
       "name": "CSS ID's",
-      "scope": ["source.sass keyword.control", "meta.attribute-selector.scss"],
+      "scope": [
+        "source.sass keyword.control",
+        "meta.attribute-selector.scss"
+      ],
       "settings": {
         "foreground": "#99FFE4"
       }
     },
     {
       "name": "Inserted",
-      "scope": ["markup.inserted"],
+      "scope": [
+        "markup.inserted"
+      ],
       "settings": {
         "foreground": "#99FFE4"
       }
     },
     {
       "name": "Deleted",
-      "scope": ["markup.deleted"],
+      "scope": [
+        "markup.deleted"
+      ],
       "settings": {
         "foreground": "#FF8080"
       }
     },
     {
       "name": "Changed",
-      "scope": ["markup.changed"],
+      "scope": [
+        "markup.changed"
+      ],
       "settings": {
         "foreground": "#A0A0A0"
       }
     },
     {
       "name": "Regular Expressions",
-      "scope": ["string.regexp"],
+      "scope": [
+        "string.regexp"
+      ],
       "settings": {
         "foreground": "#A0A0A0"
       }
     },
     {
       "name": "Escape Characters",
-      "scope": ["constant.character.escape"],
+      "scope": [
+        "constant.character.escape"
+      ],
       "settings": {
         "foreground": "#A0A0A0"
       }
     },
     {
       "name": "URL",
-      "scope": ["*url*", "*link*", "*uri*"],
+      "scope": [
+        "*url*",
+        "*link*",
+        "*uri*"
+      ],
       "settings": {
         "fontStyle": "underline"
       }
@@ -416,7 +474,9 @@
     },
     {
       "name": "ES7 Bind Operator",
-      "scope": ["source.js constant.other.object.key.js string.unquoted.label.js"],
+      "scope": [
+        "source.js constant.other.object.key.js string.unquoted.label.js"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#FF8080"
@@ -424,7 +484,9 @@
     },
     {
       "name": "JSON Key - Level 0",
-      "scope": ["source.json meta.structure.dictionary.json support.type.property-name.json"],
+      "scope": [
+        "source.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
       "settings": {
         "foreground": "#FFC799"
       }
@@ -503,14 +565,19 @@
     },
     {
       "name": "Markdown - Plain",
-      "scope": ["text.html.markdown", "punctuation.definition.list_item.markdown"],
+      "scope": [
+        "text.html.markdown",
+        "punctuation.definition.list_item.markdown"
+      ],
       "settings": {
         "foreground": "#FFF"
       }
     },
     {
       "name": "Markdown - Markup Raw Inline",
-      "scope": ["text.html.markdown markup.inline.raw.markdown"],
+      "scope": [
+        "text.html.markdown markup.inline.raw.markdown"
+      ],
       "settings": {
         "foreground": "#A0A0A0"
       }
@@ -539,7 +606,9 @@
     },
     {
       "name": "Markup - Italic",
-      "scope": ["markup.italic"],
+      "scope": [
+        "markup.italic"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#FFF"
@@ -547,7 +616,10 @@
     },
     {
       "name": "Markup - Bold",
-      "scope": ["markup.bold", "markup.bold string"],
+      "scope": [
+        "markup.bold",
+        "markup.bold string"
+      ],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#FFF"
@@ -570,7 +642,9 @@
     },
     {
       "name": "Markup - Underline",
-      "scope": ["markup.underline"],
+      "scope": [
+        "markup.underline"
+      ],
       "settings": {
         "fontStyle": "underline",
         "foreground": "#FFC799"
@@ -578,56 +652,72 @@
     },
     {
       "name": "Markdown - Blockquote",
-      "scope": ["markup.quote punctuation.definition.blockquote.markdown"],
+      "scope": [
+        "markup.quote punctuation.definition.blockquote.markdown"
+      ],
       "settings": {
         "foreground": "#FFF"
       }
     },
     {
       "name": "Markup - Quote",
-      "scope": ["markup.quote"],
+      "scope": [
+        "markup.quote"
+      ],
       "settings": {
         "foreground": "#99FFE4"
       }
     },
     {
       "name": "Markdown - Link",
-      "scope": ["string.other.link.title.markdown"],
+      "scope": [
+        "string.other.link.title.markdown"
+      ],
       "settings": {
         "foreground": "#FFFF"
       }
     },
     {
       "name": "Markdown - Link Description",
-      "scope": ["string.other.link.description.title.markdown"],
+      "scope": [
+        "string.other.link.description.title.markdown"
+      ],
       "settings": {
         "foreground": "#A0A0A0"
       }
     },
     {
       "name": "Markdown - Link Anchor",
-      "scope": ["constant.other.reference.link.markdown"],
+      "scope": [
+        "constant.other.reference.link.markdown"
+      ],
       "settings": {
         "foreground": "#FFC799"
       }
     },
     {
       "name": "Markup - Raw Block",
-      "scope": ["markup.raw.block"],
+      "scope": [
+        "markup.raw.block"
+      ],
       "settings": {
         "foreground": "#A0A0A0"
       }
     },
     {
       "name": "Markdown - Raw Block Fenced",
-      "scope": ["markup.raw.block.fenced.markdown"],
+      "scope": [
+        "markup.raw.block.fenced.markdown"
+      ],
       "settings": {
         "foreground": "#00000050"
       }
     },
     {
       "name": "Markdown - Fenced Bode Block",
-      "scope": ["punctuation.definition.fenced.markdown"],
+      "scope": [
+        "punctuation.definition.fenced.markdown"
+      ],
       "settings": {
         "foreground": "#00000050"
       }
@@ -645,14 +735,18 @@
     },
     {
       "name": "Markdown - Fenced Language",
-      "scope": ["variable.language.fenced.markdown"],
+      "scope": [
+        "variable.language.fenced.markdown"
+      ],
       "settings": {
         "foreground": "#FFF"
       }
     },
     {
       "name": "Markdown - Separator",
-      "scope": ["meta.separator"],
+      "scope": [
+        "meta.separator"
+      ],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#65737E"
@@ -660,7 +754,9 @@
     },
     {
       "name": "Markup - Table",
-      "scope": ["markup.table"],
+      "scope": [
+        "markup.table"
+      ],
       "settings": {
         "foreground": "#FFF"
       }
