@@ -5,7 +5,7 @@
   "publisher": "Obstinate",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ObstinateM/vesper"
+    "url": "https://github.com/ObstinateM/vesperpp"
   },
   "keywords": [
     "theme",
@@ -30,7 +30,7 @@
       {
         "label": "Vesper ++",
         "uiTheme": "vs-dark",
-        "path": "./themes/Vesper ++-color-theme.json"
+        "path": "./themes/Vesperpp-color-theme.json"
       }
     ]
   }
